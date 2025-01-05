@@ -89,6 +89,19 @@
   }
 }
 
+.glightbox-clean {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color) !important;
+}
+.gslide-title {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color) !important;
+}
+.gdesc-inner {
+  background-color: var(--md-default-bg-color);
+  color: var(--md-default-fg-color) !important;
+}
+
 .backgradient-container {
 	position: sticky;
   left: 0px;
@@ -109,11 +122,20 @@
 }
 
 body {
+  background-color: #0000;
+}
+
+.backimage {
+  position: absolute;
 	background-image: url("VoronoiTest.jpg");
   image-rendering: optimizeSpeed;
 	background-size: 8192px;
 	backdrop-filter: blur(8px);
 	z-index: -999;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
 }
 
 .md-typeset__table {
