@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: "Ako";
-  src: url("AKOLOUTHOS.ttf");
+  src: url("AKOLOUTHOS.TTF");
 }
 @font-face {
   font-family: "Scratch";
@@ -28,9 +28,9 @@
 
   --md-default-fg-color-opaque:        hsl(0, 0%, 85%);
   --md-default-fg-color:               hsla(0, 0%, 85%, 0.95);
-  --md-default-fg-color--light:        hsla(0, 0%, 100%, 0.95);
+  --md-default-fg-color--light:        hsla(0, 0%, 90%, 0.95);
   --md-default-fg-color--lighter:      hsla(0, 0%, 95%, 0.95);
-  --md-default-fg-color--lightest:     hsla(0, 0%, 90%, 0.95);
+  --md-default-fg-color--lightest:     hsla(0, 0%, 100%, 0.95);
   --md-default-bg-color:               #111f;
   --md-default-bg-color--light:        #111f;
   --md-default-bg-color--lighter:      #111f;
