@@ -8,7 +8,7 @@ You can get the game on Steam (this does not exist. I have not paid gabe noodle 
 
 ## Modding Guides
 
-Learn how to mod the game using the modding documentation and tutorials at [The Modding Guide](https://xansworkshop.com/conservatory/modding). Here you can find:
+Learn how to mod the game using the modding documentation and tutorials at [The Modding Guide](https://conservatory.xansworkshop.com/modding). Here you can find:
 
 * Code Documentation
 * Templates
