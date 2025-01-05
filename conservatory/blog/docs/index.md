@@ -11,7 +11,7 @@ https://discord.gg/YGJ7a44UEE) but I have since moved them here to make them pub
 
 ## Where do I read?
 
-&nbsp;&nbsp;The latest blog post was uploaded on [1 January 2025: *The Conservatory Analysis Tools*](./2025/01/01.md). You can find it and other entries on the left side of the page, under the Blog category.
+&nbsp;&nbsp;The latest blog post was uploaded on [5 January 2025: *New Website!*](./2025/01/05.md). You can find it and other entries on the left side of the page, under the Blog category.
 
 ## How do I make mods? Where's the code documentation?
 

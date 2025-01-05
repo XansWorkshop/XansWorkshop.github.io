@@ -102,6 +102,11 @@
   color: var(--md-default-fg-color) !important;
 }
 
+.md-content {
+  background-color: #0006;
+  border-radius: 12px;
+}
+
 .backgradient-container {
 	position: sticky;
   left: 0px;

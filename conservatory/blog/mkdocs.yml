@@ -45,6 +45,7 @@ nav:
   # Format is YYYY/MM/DD
   - "Blog":
     - "January 2025":
+      - "5 January 2025 - <small>New Website!</small>": "2025/01/05.md"
       - "1 January 2025 - <small>The Conservatory Analysis Tools</small>": "2025/01/01.md"
     - "December 2024":
       - "24 December 2024 - <small>Entity Actions, and The Lack of a Player Entity</small>": "2024/12/24.md"
