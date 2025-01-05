@@ -1,0 +1,361 @@
+:root {
+	--topbar-start-color: rgb(0, 0, 0, 1);
+	--topbar-end-color: rgba(104, 71, 67, 0.2);
+	
+	--sidebar-start-color: rgb(148, 127, 127);
+	--sidebar-end-color: rgb(42, 31, 31);
+	
+	--default-minibar-strip-color: #cc9d5c;
+	--minibar-start-color: #e3d3d3;
+	--minibar-end-color: #d69a9a;
+	--minibar-strip-width: 12px;
+	
+	--shadow-color: #000;
+	
+	--page-back-start-color: rgb(16, 16, 16, 0.975);
+	--page-back-end-color: rgba(24, 24, 24, 0.375);
+}
+body {
+	background-color: #1f1f1f;
+	font-family: Geosans, 'Fairfax HD';
+	font-size: 20px;
+	color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-family: Geosans, 'Fairfax HD';
+	color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+p {
+	font-family: Geosans, 'Fairfax HD';
+	font-size: 28px;
+	color: #eeeeee;
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+}
+a {
+	color: #eeb0aa;
+}
+code {
+	font-size: smaller;
+}
+td, th {
+	border: 1px solid #eeeeee;
+	padding: 4px;
+}
+th {
+	background-color: #eeeeee30
+}
+
+@font-face {
+	font-family: Troika;
+	src: url(font/troika.otf);
+}
+@font-face {
+	font-family: 'Fairfax HD';
+	src: url(font/FairfaxHD.ttf);
+}
+@font-face {
+	font-family: Geosans;
+	src: url(font/GeosansLight.ttf);
+}
+@font-face {
+	font-family: 'Natural Precision';
+	src: url('font/Natural Precision.ttf');
+}
+@font-face {
+	font-family: 'Absolute Zero';
+	src: url('font/Absolute Zero.otf');
+}
+
+.backing {
+	position: absolute;
+	width: calc(100vw - 12px);
+	height: calc(100vh - 12px);
+	top: 6px;
+	left: 6px;
+	background-image: linear-gradient(var(--page-back-start-color) 0%, var(--page-back-start-color) 64px, var(--page-back-end-color) 100%);
+}
+.backingimage {
+	position: absolute;
+	width: calc(100vw - 12px);
+	height: calc(100vh - 12px);
+	top: -6px;
+	left: -6px;
+	background-image: url("img/VoronoiTest.jpg");
+	image-rendering: optimizeSpeed;
+	background-size: 8192px;
+	filter: blur(8px);
+	z-index: -2;
+}
+.topbar {
+	position: absolute;
+	width: 100%;
+	height: 64px;
+	left: 0px;
+	top: 0px;
+	background-image: linear-gradient(to right, var(--topbar-start-color) 0%, var(--topbar-start-color) 64px, var(--topbar-end-color) 100%);
+}
+.topbar_text {
+	font-family: 'Geosans';
+	position: relative;
+	top: -60px;
+	left: 70px;
+	width: calc(100% - 72px);
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow-x: hidden;
+	overflow-y: visible;
+}
+
+.sidebar {
+	position: absolute;
+	width: 64px;
+	height: 100%;
+	background-image: linear-gradient(var(--sidebar-start-color) 0%, var(--sidebar-end-color) 100%);
+}
+.rightbar {
+	position: absolute;
+	width: 20%;
+	height: 100%;
+	right: 0px;
+	background-image: linear-gradient(var(--sidebar-start-color) 0%, var(--sidebar-end-color) 100%);
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+.minibar {
+	position: absolute;
+	width: 100%;
+	height: 48px;
+	top: 0px;
+	background-image: linear-gradient(to right, var(--default-minibar-strip-color) 0%, var(--default-minibar-strip-color) var(--minibar-strip-width), var(--minibar-start-color) 9px, var(--minibar-end-color) 100%);
+}
+.minibar_text {
+	font-size: 36px;
+	color:#41544c;
+	position: relative;
+	top: 6px;
+	left: 16px;
+	font-family: Troika;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+
+
+.homewindow {
+	width: max(40%, 700px);
+	height: 29%;
+	background-image: linear-gradient(#6d858a 0%, #656e75 100%);
+	position: absolute;
+	top: 72px;
+	left: 72px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.altwindow {
+	width: max(40%, 700px);
+	height: 29%;
+	background-image: linear-gradient(#6d858a 0%, #656e75 100%);
+	position: absolute;
+	top: calc(29% + 72px + 5px);
+	left: 72px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+.otherwindow {
+	width: max(40%, 700px);
+	height: 29%;
+	background-image: linear-gradient(#6d858a 0%, #656e75 100%);
+	position: absolute;
+	top: calc(29% + 29% + 72px + 10px);
+	left: 72px;
+	overflow-y: auto;
+	overflow-x: hidden;
+}
+
+/****************************************/
+.tooltip {
+	position: relative;
+	display: inline-block;
+	border-bottom: 1px dotted cyan;
+}
+.subtext {
+	font-size: 12px;
+	vertical-align: sub;
+}
+.tooltip .tooltiptext {
+	visibility: hidden;
+	width: 200px;
+	background-color: #3c5359;
+	color: white;
+	text-align: center;
+	padding: 4px 4px;
+	border-radius: 4px;
+	position: absolute;
+	/*top: 32px;*/
+	font-family: Geosans;
+	/*left: 0px;*/
+	font-size: 14px;
+	z-index: 1;
+	overflow: visible;
+}
+.tooltip:hover .tooltiptext {
+	visibility: visible;
+}
+
+.black-stroke {
+	text-shadow: -1px -1px 0 #000000, 1px -1px 0 #000000, -1px 1px 0 #000000, 1px 1px 0 #000000;
+}
+.gray-stroke {
+	text-shadow: -1px -1px 0 #444444, 1px -1px 0 #444444, -1px 1px 0 #444444, 1px 1px 0 #444444;
+}
+.white-stroke {
+	text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+}
+
+/****************************************/
+ul, #loreList {
+	list-style-type: none;
+}
+
+#loreList {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	color: #eeeeee;
+	font-family: Geosans;
+	font-size: 18px;
+}
+
+.beeg-caret {
+	color: #eeeeee;
+	font-family: Geosans;
+	font-size: 26px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.beeg-caret::before {
+	content: "\25B6\FE0E";
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: 4px;
+	margin-left: 2px;
+}
+
+.beeg-caret-down::before {
+	transform: rotate(90deg);
+}
+
+.caret {
+	color: #eeeeee;
+	font-family: Geosans;
+	font-size: 22px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.caret::before {
+	content: "\25B6\FE0E";
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: 4px;
+	margin-left: 2px;
+}
+
+.caret-down::before {
+	transform: rotate(90deg);
+}
+
+.smol-caret {
+	color: #eeeeee;
+	font-family: Geosans;
+	font-size: 18px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.smol-caret::before {
+	content: "\25B6\FE0E";
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: 4px;
+	margin-left: 2px;
+}
+
+.smol-caret-down::before {
+	transform: rotate(90deg);
+}
+
+.teeny-caret {
+	color: #eeeeee;
+	font-family: Geosans;
+	font-size: 16px;
+	cursor: pointer;
+	user-select: none;
+}
+
+.teeny-caret::before {
+	content: "\25B6\FE0E";
+	display: inline-block;
+	margin-top: 2px;
+	margin-right: 4px;
+	margin-left: 2px;
+}
+
+.teeny-caret-down::before {
+	transform: rotate(90deg);
+}
+
+.nested {
+	display: none;
+}
+
+.active {
+	display: block;
+}
+
+.vl {
+  border-left: 1px solid #ffffff7f;
+  margin: 0px;
+  top: 2.5%;
+  position: absolute;
+  height: 95%;
+}
+
+
+.diff-add {
+	color: #6fe88c;
+	text-shadow: -1px -1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color);
+}
+
+.diff-change {
+	color: #8efffa;
+	text-shadow: -1px -1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color);
+}
+
+.diff-fix {
+	color: #e2e86f;
+	text-shadow: -1px -1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color);
+}
+
+.diff-remove {
+	color: #ff9e9e;
+	text-shadow: -1px -1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color);
+}
+
+.diff-bug {
+	color: #ffa3f9;
+	text-shadow: -1px -1px 0 var(--shadow-color), 1px -1px 0 var(--shadow-color), -1px 1px 0 var(--shadow-color), 1px 1px 0 var(--shadow-color);
+}

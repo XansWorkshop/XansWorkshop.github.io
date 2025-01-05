@@ -1,0 +1,75 @@
+site_name: The Conservatory Development Blog
+theme:
+  name: material
+  font: false
+  palette:
+    scheme: xan
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - md_in_html
+  - footnotes
+  - pymdownx.keys
+  - tables
+plugins:
+  - glightbox:
+      auto_caption: true
+  - search
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - "scripts/customfootnote.js"
+  - "scripts/addback.js"
+  - "https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js"
+nav: 
+  - "Home": "index.md"
+  - "Welcome!":
+    - "What is <em>The Conservatory?</em>": "about.md"
+    - "Credits": "credits.md"
+  - "Playable Races":
+    - "Gaian": "races/gaian.md"
+    - "Avelian": "races/avelian.md"
+    - "Kirivian": "races/kirivian.md"
+    - "Novan": "races/novan.md"
+  - "Lore":
+    - "The Story":
+      - "Overview": "other-lore/story-overview.md"
+      - "The ISCA": "other-lore/isca.md"
+    - "The Characters":
+      - "The Celestine Conservator": "other-lore/characters/conservator.md"
+    - "Measurement Units" : "other-lore/units.md"
+  # Format is YYYY/MM/DD
+  - "Blog":
+    - "January 2025":
+      - "1 January 2025 - <small>The Conservatory Analysis Tools</small>": "2025/01/01.md"
+    - "December 2024":
+      - "24 December 2024 - <small>Entity Actions, and The Lack of a Player Entity</small>": "2024/12/24.md"
+      - "21 December 2024 - <small>Physics Peeves, Mod Analyzer Woes</small>": "2024/12/21.md"
+      - "10 December 2024 - <small>Entity Model (Character) Customization</small>": "2024/12/10.md"
+      - "5 December 2024 - <small>Physics, Entities, and ...Music!</small>": "2024/12/05.md"
+    - "November 2024":
+      - "24 November 2024 - <small>The Entity System, Part 3: Physics. Again. Help.</small>": "2024/11/24.md"
+      - "18 November 2024 - <small>Lore Tweaks, and Inverse Kinematics</small>": "2024/11/18.md"
+      - "16 November 2024 - <small><em>We're going to have to use ... math!</em></small>": "2024/11/16.md"
+      - "13 November 2024 - <small>The Entity System, Part 2: Physics</small>": "2024/11/13.md"
+      - "7 November 2024 - <small>The Entity System</small>": "2024/11/07.md"
+      - "5 November 2024 - <small>Terrain (core) is done!</small>": "2024/11/05.md"
+    - "September 2024":
+      - "27 September 2024 - <small>Lighting is final!</small>": "2024/09/27.md"
+    - "August 2024":
+      - "3 August 2024 - <small>The Settings Menu, Mod Configs</small>": "2024/08/03.md"
+    - "July 2024":
+      - "13 July 2024 - <small>The Sky of <em>Numala</em></small>": "2024/07/13.md"
+    - "June 2024":
+      - "27 June 2024 - <small>Roslyn Analyzers and VSIX</small>": "2024/06/27.md"
+      - "14 June 2024 - <small>Pixel Art Shadows</small>": "2024/06/14.md"
+    - "May 2024":
+      - "31 May 2024 - <small>Terrain Voxel Rendering</small>": "2024/05/31.md"
+      - "25 May 2024 - <small>Goodbye 010, Hello ImHex</small>": "2024/05/25.md"
+      - "20 May 2024 - <small>A Peek into Modding</small>": "2024/05/20.md"
+    - "March 2024":
+      - "31 March 2024 - <small>Music from LawnReality</small>": "2024/03/31.md"
