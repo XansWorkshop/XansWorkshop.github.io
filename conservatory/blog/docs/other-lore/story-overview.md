@@ -11,7 +11,7 @@
 
 ## Exposition
 
-&nbsp;&nbsp;The player begins the game in what seems to be a dream or a daze. They are in some facility, there's alarms blaring, things are up in flames, but there's nobody there! Fire suppression seems to be failing or missing, and the player can't help but to notice a sigil drawn repeatedly all over the walls, ceiling, and floor. [Internal note: "Play Breakout"]
+&nbsp;&nbsp;The player begins the game in what seems to be a dream or a daze. They are in some facility, there's alarms blaring, things are up in flames, but there's nobody there! Fire suppression seems to be failing or missing, and the player can't help but to notice a sigil drawn repeatedly all over the walls, ceiling, and floor.
 
 &nbsp;&nbsp;The player has to find an escape, running through a set of halls that aren't (yet) on fire. As they move on, strange distortions seem to be occurring in reality itself, as if someone is trying to rip apart the fabric of spacetime. Eventually, the player enters the facility's main core, the home of its hyper-advanced computer. It's a large, circular room with a pillar in the center, the pillar is the computer. There is an avian figure in the room, shadowy, almost holographic. They are ripping the room to shreds, but it's impossible to tell why or what they may be feeling. A switch is highlighted on the pillar, some sort of emergency shutoff maybe, the player doesn't know. The player is encouraged to run to it without any other option. The avian does not care until they interact with the button, stopping the player before grabbing them and throwing them into one of the tears in spacetime.
 

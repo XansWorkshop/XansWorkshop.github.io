@@ -170,12 +170,14 @@ body {
   writing-mode: vertical-lr;
   -ms-writing-mode: tb-lr;
   line-height: 70.5%;
+  text-align: left;
   color: var(--md-default-fg-color-opaque);
 }
 .scratch {
   font-family: Scratch;
   font-size: 125%;
   text-align: left;
+  color: var(--md-default-fg-color-opaque);
 }
 
 @keyframes TRIPLE_FLASH {

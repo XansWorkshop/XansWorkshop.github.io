@@ -1,5 +1,12 @@
 # The *Interstellar Sapience Congruity Accord* <br/><small>("Interstellar Accord", "Accord", "ISCA")</small>
 
+!!! danger "Nothing on this page is a promised feature or guaranteed to be in the game."
+    If you are seeing this warning bubble, here is a reminder that **this project is in early development.**<br/>
+    <br/>
+    <span style="color:#faa">**Anything you see here is *NOT* a promise or guarantee. Features on this page *WILL BE ADDED, REMOVED, OR CHANGED WITHOUT ANY SORT OF NOTICE.***</span> If I find you on twitter.com saying how I "broke promises" because you saw something on this page that I removed later, I will point at you and laugh for being a dummy idiot doodoo bref dummy head, a real stinker, perhaps dare I say, a poopyhead even.</span>
+
+***
+
 &nbsp;&nbsp;The *Interstellar Sapience Congruity Accord* (ISCA) is an agreement created by the [Gaian](../races/gaian.md) race as a means of unifying as many known sapient races in the universe as is possible, and providing a set of baseline rights for all sapient beings to ensure their prosperity. 
 
 &nbsp;&nbsp;As formal as the ISCA may seem, it's a quite loose organization with relatively simple joining requirements. Specifically, races joining the ISCA must meet the following requirements:
@@ -57,6 +64,9 @@
 
 &nbsp;&nbsp;My request to use *Akolouthos* (often just called *"Ako"*) in-game was accepted. This is something used in *Antiheat's* universe (which I mark as a source of inspiration over on [the About page](../about.md)). This one is particularly interesting; it is a vertical typeface designed for use by synethetic (robotic) races. It can still be read manually if you know the symbols. Typically, typed phrases do their best to remain square. Each glyph is square as well. This is a 4x4, with two characters overflowing to the right:
 
-<center><span class="ako" style="text-align: left;">HELL<br/>O, S<br/>YNTH<br/>ETIC<br/>S.</span><br/><small>"Hello, Synthetics."</small></center><center><span class="ako" style="font-family:Fairfax HD;text-align: left;">HELL<br/>O, S<br/>YNTH<br/>ETIC<br/>S.</span><br/><small>This way →<br/>Then bottom to top.</small></center>
+<center><span class="ako">HELLO, SYNTHETICS.</span><br/><small>"Hello, Synthetics."</small></center>
+<center><span class="ako" style="font-family:Fairfax HD;text-align: left;">HELLO, SYNTHETICS.</span><br/><small>This way →</small></center>
+<br/>
+<center><span class="ako">I actually really like this mode of writing, because it just looks like a proper datablock. It almost intuitively feels like something that is easily usable for robotic species, hence why I was so excited to try to use it.</span><br/><small>"I actually really like this mode of writing, because it just looks like a proper datablock. It almost intuitively feels like something that is easily usable for robotic species, hence why I was so excited to try to use it."</small></center>
 
 [^1]: This may not actually be included. I will need to make my own font for Avali Scratch because all of the ones I can find online are CC-\*-NC, thus my game is disqualified (because I sell it commercially). And then, on top of this, I don't know if I have permission from the species's creator to include it natively. Even if the *de facto* use of the species is entirely public and open source, the *de jure* usage is vague. I'm selling this game and making a profit, the last thing I want to do is get into some lawsuit because the CEO of space birds doesn't like me doing that.<br/><br/>The game's mod loader will allow for loading custom fonts in though, so if worse comes to worst, you can just add it yourself.

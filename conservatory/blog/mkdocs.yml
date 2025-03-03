@@ -24,26 +24,30 @@ extra_css:
 extra_javascript:
   - "scripts/customfootnote.js"
   - "scripts/addback.js"
+  - "scripts/ako_align.js"
   - "https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js"
 nav: 
   - "Home": "index.md"
-  - "Welcome!":
+  - "Welcome and History":
     - "What is <em>The Conservatory?</em>": "about.md"
+    - "FAQ and History": "faq.md"
     - "Credits": "credits.md"
-  - "Playable Races":
-    - "Gaian": "races/gaian.md"
-    - "Avelian": "races/avelian.md"
-    - "Kirivian": "races/kirivian.md"
-    - "Novan": "races/novan.md"
   - "Lore":
     - "The Story":
       - "Overview": "other-lore/story-overview.md"
       - "The ISCA": "other-lore/isca.md"
     - "The Characters":
-      - "The Celestine Conservator": "other-lore/characters/conservator.md"
+      - "The Celestine Conservator": "other-lore/characters/conservator.md"  
+    - "Playable Races":
+      - "Gaian": "races/gaian.md"
+      - "Avelian": "races/avelian.md"
+      - "Kirivian": "races/kirivian.md"
+      - "Novan": "races/novan.md"
     - "Measurement Units" : "other-lore/units.md"
   # Format is YYYY/MM/DD
   - "Blog":
+    - "March 2025":
+      - "03 March 2025 - <small>The Dev to Alpha Transition Phase</small>": "2025/03/03.md"
     - "January 2025":
       - "5 January 2025 - <small>New Website!</small>": "2025/01/05.md"
       - "1 January 2025 - <small>The Conservatory Analysis Tools</small>": "2025/01/01.md"

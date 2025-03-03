@@ -1,30 +1,30 @@
 # Units in The Conservatory
 
-I love my sci-fi to be at least reasonably coherent. No sci-fi can be perfect - if it were, there would be no *"fi"* in the phrase. Still, people love it when it seems coherent enough and makes intuitive sense.
+&nbsp;&nbsp;I love my sci-fi to be at least reasonably coherent. No sci-fi can be perfect - if it were, there would be no *"fi"* in the phrase. Still, people love it when it seems coherent enough and makes intuitive sense.
 
-**While the game will usually measure in your choice of Metric or Imperial units**, I have also included in-universe custom units called *Interstellar Standard Units*, based off of cosmological constants, which you can use if you are feeling particularly daring.
+&nbsp;&nbsp;**While the game will usually measure in your choice of Metric or Imperial units**, I have also included in-universe custom units called *Interstellar Standard Units*, based off of cosmological constants, which you can use if you are feeling particularly daring.
 
 ## The Interstellar Standard Unit System
 
 ### Real World Universal Constants, as seen in *The Conservatory*
 
-**First, some background lore from real life.** In 2019, all of our standard units of measurement (SI units) were modified to be built upon *Universal Constants*. These are constants based on *the laws of physics themselves*. This boasts several **real world benefits** to the way we measure things!
+&nbsp;&nbsp;**First, some background lore from real life.** In 2019, all of our standard units of measurement (SI units) were modified to be built upon *Universal Constants*. These are constants based on *the laws of physics themselves*. This boasts several **real world benefits** to the way we measure things!
 
 1. The values can **never** become inaccurate or change over time. They can only become more precise. The speed of light will always be *exactly* 299792458 meters per second in a vacuum, for instance, and this is a truth of reality that can not be changed.
 2.  These values are the same everywhere in the universe[^1], which means **if we ever encounter aliens, these units are *universal*.** We can tell an alien that a meter is a certain amount of *Planck lengths* (one of these universal constants) and even if they have no clue what a meter is, they can figure that out on their own!
 
-Turns out this is awesome for writing stories too, like *The Conservatory*'s lore.
+&nbsp;&nbsp;Turns out this is awesome for writing stories too, like *The Conservatory*'s lore.
 
-The Conservatory uses real world Universal Constants, however **it assumes completely precise values exist**[^disp:Explain&#x3F;]. The math is the same as the real world, with the exact values for *Planck's constant* and the *Boltzmann constant*. The *Planck length* is treated as exactly $1.616255\times10^{-35}$ meters. Other universal constants (Length, Mass, Temperature, Time, G) can be calculated from all of these.
+&nbsp;&nbsp;The Conservatory uses real world Universal Constants, however **it assumes completely precise values exist**[^disp:Explain&#x3F;]. The math is the same as the real world, with the exact values for *Planck's constant* and the *Boltzmann constant*. The *Planck length* is treated as exactly $1.616255\times10^{-35}$ meters. Other universal constants (Length, Mass, Temperature, Time, G) can be calculated from all of these.
 
-When calculating the values in-game, please impolitely discard preservation of significant figures. The game's math doesn't care about them, and since we aren't doing real physics or science here, it doesn't really matter.
+&nbsp;&nbsp;When calculating the values in-game, please impolitely discard preservation of significant figures. The game's math doesn't care about them, and since we aren't doing real physics or science here, it doesn't really matter.
 
 ### What are the game units?
 
 !!! danger "Don't overwhelm yourself!"
     There's a lot of information here, but you **probably don't need it all**! If you are just looking for how to use these numbers when writing stories or dialogue, skip to the next section after the data tables below.
 
-Here's the raw units. **If you want to know how to write stories using these, see the next section.**
+&nbsp;&nbsp;Here's the raw units. **If you want to know how to write stories using these, see the next section.**
 
 | Usage | Name | Abbreviation | Value | Measurement |
 | - | - | - | - | - |
@@ -53,11 +53,11 @@ Here's the raw units. **If you want to know how to write stories using these, se
 
 ### Advice for Writers
 
-Numbers are based on powers of two. Instead of numbers like 5, 10, or 100, our interstellar citizens really enjoy 2, 4, 8, 16, 32, 64, so forth.
+&nbsp;&nbsp;Numbers are based on powers of two. Instead of numbers like 5, 10, or 100, our interstellar citizens really enjoy 2, 4, 8, 16, 32, 64, so forth.
 
 #### Time
 
-Sorry, I lied. You'll have to look at the table above (the bigger one) to learn what these units are.
+&nbsp;&nbsp;Sorry, I lied. You'll have to look at the table above (the bigger one) to learn what these units are.
 
 * Try these quick substitutions for our **common phrases** (these are *not* mathematically correct!):
     * "Just a few seconds" => "Count a few tempora"
@@ -73,7 +73,7 @@ Sorry, I lied. You'll have to look at the table above (the bigger one) to learn 
     * "A decade ago" => "8 sequences ago"
     * "A century ago" => "64 sequences ago" <small>(this is 80 years, not 100, but colloquially it's used the same way)</small>
 
-**There is an analogue to *Star Trek*'s *Stardate* system used by this game.** It uses a unit of time measured since the foundation of the [ISCA](./isca.md)
+&nbsp;&nbsp;**There is an analogue to *Star Trek*'s *Stardate* system used by this game.** It uses a unit of time measured since the foundation of the [ISCA](./isca.md)
 
 | Sequence | . | Cycle | / | Whole Octholds |
 | - | - | - | - | - |

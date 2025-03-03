@@ -7,7 +7,7 @@
 
 ***
 
-&nbsp;&nbsp;*The Conservatory* is a narrative-backed, voxel-based universal sandbox game. It is meant to fill a gap that I believe exists in my favorite genres of gaming, and has the secondary purpose of serving as a challenge to my skills acquired over the past 15 years of time spent as an indie developer. This is my "final boss", metaphorically speaking.
+&nbsp;&nbsp;*The Conservatory* is a narrative-backed, voxel-based universal sandbox game.
 
 ## The Developer and The Inspiration
 
@@ -16,15 +16,7 @@
     <br/>
     **It's a good read if you really want the extra detail, but if you just want to figure out what the game *is* (as in, what it's like to play, what it'll have in it), skip this section!**
 
-&nbsp;&nbsp;My name is Xan ("Zan", rhymes with "Sam"). *The Conservatory* is partly a love-letter, and partly an attempt to build upon, a very specific genre of game I both love and want to see more of.
-
-&nbsp;&nbsp;If there's one thing you should know about me, it's that I **love** media that focuses on the evocation of feelings, I love worldbuilding. I love it when my worlds feel alive, when they have substance, when you can interact with them. I have been writing stories since I was a little kid, and indeed *Xan* is actually my first persona. He is almost as old as me.
-
-&nbsp;&nbsp;The Conservatory is not only an attempt to grow upon genres I like, but it's also a game for me personally. There's a game I have always wanted to play, but which does not exist. The exact feeling I aim to capture is a level of immersion that feels open. That is, I *don't* believe a one man army is good enough to beat the best of the best when it comes to making immersive games. I do believe that I have the ability to create a system which facilitates this type of interaction with the players, however, and I hope to achieve exactly that.
-
-&nbsp;&nbsp; You see, I want a world that *acknowledges who the player is*. But vitally, I don't want it to be all serious and bureaucratic. *We need to have fun.* If I'm going to have a space station, I want niche and borderline comical accommodations for random races. I want multilingual boards in alien languages and codeblocks for synthetics.
-
-&nbsp;&nbsp;I want to see the world *morphed to fit the people that visit it most regularly.*
+&nbsp;&nbsp;This section mostly classifies as a sort of "moodboard". **I'm not good with words.** I'm crazy autistic and couldn't explain this if my life depended on it. So instead, I'm going to show you pieces of media that evoke the feelings. Feel the frame of reference for yourself:
 
 ### **Sources of Inspiration**
 
@@ -65,7 +57,7 @@ By far the largest of these sections.
 
 &nbsp;&nbsp;I'm not much of a TV/Movie guy so this will be considerably smaller, but of those that I have watched, some of them have managed to weasel their way into my writing.
 
-* *[Star Trek: The Next Generation](https://www.startrek.com/series/star-trek-the-next-generation)* is basically the only TV series that I have actively tried to watch the entirety of. I'm picky! Mr. Roddenberry's vision for the series and his usage of real scientists to make the show at least somewhat believable made a *night and day* difference between this and the series that were inspired by it.
+* *[Star Trek](https://www.startrek.com)* (esp. *The Next Generation* and *Deep Space Nine*) is basically the only TV series that I have actively tried to watch the entirety of. I'm picky with my shows! Mr. Roddenberry's vision for the series and his usage of real scientists to make the show at least somewhat believable made a *night and day* difference between this and the series that were inspired by it.
     * *Star Trek* made me realize the importance of coherent rules in the universe. He answered the question of *"why can't you just..."* for a pretty significant amount of cases where certain technology exists, and even if the coverage wasn't perfect, it still made a difference and it shows.
 
 #### **Other Games**
@@ -73,7 +65,7 @@ By far the largest of these sections.
 &nbsp;&nbsp;Four games were the "core" inspiration for this, so they are in their own section below. Honorable mentions are here.
 
 * *[Rain World](https://rainworldgame.com/)* is a very important title. Despite my love (and qualms) toward the game, it is undeniable that it set a pretty significant precedent for what it means to be an immersive game. It shows just how much the little details matter. That's why it's popular! A bunch of the little details that make the ecosystem feel *real* in the constraints of what it is, have set it head and shoulders above other games in its league, and it is very highly regarded for this fact.
-* *[Robocraft](https://robocraftgame.com/)* is a game in an interesting position. I'm one of those diehard fans that will tell you the game was better in 2015, but the core of the game is the same. You build your own robot and you fight other players with it. I really love that aspect of functional building, and while I doubt I can get it to work in my game so cleanly, it's definitely something I think about. Being able to build your own craft out of blocks and pilot it is such a unique and fun experience.
+* *[Robocraft](https://robocraftgame.com/)* has fun building with blocks and guns. If you have played *Crossout*, it's kind of the original predecessor to it. Another good analogue is *TerraTech*. Unfortunately I don't know how much longer this link will work; as of today (8 January 2025) FreeJam has announced it is shutting down entirely, which means Robocraft is going with it.
 
 ***
 

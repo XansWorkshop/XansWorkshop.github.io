@@ -1,7 +1,12 @@
 # Playable Races: *Avelian*
 
-!!! warning "This document is not yet complete!"
-    Due to the nature of the game and its development cycle, **information here is subject to change, and certain pieces of information are missing or omitted.** Please handle this with care.<br/><br/>**To be more precise, YOU ARE READING A TOUCHED-UP ROUGH DRAFT.** This writing is not production ready by any means and is more here for the people who are super curious!
+!!! danger "Nothing on this page is a promised feature or guaranteed to be in the game."
+    If you are seeing this warning bubble, here is a reminder that **this project is in early development.**<br/>
+    <br/>
+    <span style="color:#faa">**Anything you see here is *NOT* a promise or guarantee. Features on this page *WILL BE ADDED, REMOVED, OR CHANGED WITHOUT ANY SORT OF NOTICE.***</span> If I find you on twitter.com saying how I "broke promises" because you saw something on this page that I removed later, I will point at you and laugh for being a dummy idiot doodoo bref dummy head, a real stinker, perhaps dare I say, a poopyhead even.</span>
+
+!!! tip "Information recently trimmed"
+    I am focusing on lore for the game, meaning things are in a constant state of flux. Cultural values and other relevant information of the sort have been removed from the page. They will be re-added at a later date. Sorry!
 
 ***
 
@@ -10,19 +15,23 @@
 ## Key Overview
 | Attribute  | Associated Information  |
 | :--------- | ----------------: |
-| Home World | Avos (Navilius System (F3V), Planet № 2)) |
-| Propagation Technique | &lt;awaiting technique&gt; |
+| Home World | Avos (*Navilius* System (F3V), Planet № 2) |
+| Propagation Technique | Multi-Faceted Sexual Reproduction |
 | Average Height | 1.2m |
 | Average Mass | 30kg |
 | Average Lifespan | 72.2 Years |
 
 ## Overview
 
-!!! note "This document flat out isn't done."
-    So here, you can have the moodboard / themes instead.
 
-Avelian are the avian race, bird people are cool. They are themed after very idealized-victorian lifestyles and so they really, *really* love the arts, expressions of the self, being posh and rich (but not as greedy), and highly value their technological advancements.
 
-A huge inspiration was the Avians from Starbound aesthetically, though less focus on being an analogue to Egyptians and more European.
+### Phenotype
 
-These are being written by my best friend and co-author RWGryphon hence why most of the data is missing (and if you are seeing this, gryph, no. you are not behind. you do not need to stress about this. this is not an embarassment. you have time. everybody undertstands this.)
+
+<!--
+
+## Culture and Standards
+
+### Romantic and Bonding Interests
+
+-->

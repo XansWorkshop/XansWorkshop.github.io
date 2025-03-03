@@ -1,7 +1,6 @@
 # The Conservatory Development Blog
 
-&nbsp;&nbsp;Hello! My name is Xan. Here, I post chronological updates about the development of my game. These blog posts were originally hosted solely on [the Discord](
-https://discord.gg/YGJ7a44UEE) but I have since moved them here to make them publicly accessible.
+&nbsp;&nbsp;Hello! Welcome to **The Conservatory Development Blog**! Here, I post chronological updates on my progress through the game's development. I also host peeks into the lore of the game's universe. Go explore!
 
 &nbsp;&nbsp;This site is powered by `mkdocs-material` and is what I will (or do, depending on when you are reading this) use for official documentation.
 
@@ -9,9 +8,14 @@ https://discord.gg/YGJ7a44UEE) but I have since moved them here to make them pub
 
 &nbsp;&nbsp;You can learn about the game and my main reason for wanting to create it on the sidebar, here: [What is *The Conservatory?*](./about.md)
 
+## How can I stay up to date?
+
+&nbsp;&nbsp;I encourage you to join [the Discord server](
+https://discord.gg/pt7VQqagyE)! Here, I post updates (including new blog posts), and occasionally will **livestream the development of my game.** You can also ask questions about it here.
+
 ## Where do I read?
 
-&nbsp;&nbsp;The latest blog post was uploaded on [5 January 2025: *New Website!*](./2025/01/05.md). You can find it and other entries on the left side of the page, under the Blog category.
+&nbsp;&nbsp;The latest blog post was uploaded on [3 March 2025: *The Dev to Alpha Transition Phase*](./2025/03/03.md). You can find it and other entries on the left side of the page, under the Blog category.
 
 ## How do I make mods? Where's the code documentation?
 
