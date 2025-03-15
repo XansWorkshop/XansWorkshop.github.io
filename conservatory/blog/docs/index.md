@@ -15,7 +15,7 @@ https://discord.gg/pt7VQqagyE)! Here, I post updates (including new blog posts),
 
 ## Where do I read?
 
-&nbsp;&nbsp;The latest blog post was uploaded on [6 March 2025: *Godot 4.4, Mods, and Data Galore*](./2025/03/06.md). You can find it and other entries on the left side of the page, under the Blog category.
+&nbsp;&nbsp;The latest blog post was uploaded on [15 March 2025: *15 March 2025 - World touchups, Inventories, and Entities*](./2025/03/15.md). You can find it and other entries on the left side of the page, under the Blog category.
 
 ## How do I make mods? Where's the code documentation?
 
