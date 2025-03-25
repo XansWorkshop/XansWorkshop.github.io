@@ -7,7 +7,52 @@
 
 ***
 
-&nbsp;&nbsp;*The Conservatory* is a narrative-backed, voxel-based universal sandbox game.
+## What's the game like?
+
+&nbsp;&nbsp;Probably what you are here for. What's the gameplay like? How does it work?
+
+&nbsp;&nbsp;*The Conservatory* is a sci-fi/fantasy themed, voxel-based sandbox game, with a very small, simple, narratively-driven progression. It mixes magic *and* tech, something I have always loved together. It **should** have multiplayer if all goes well.
+
+&nbsp;&nbsp;The game's world is procedurally generated, and exists in a *multiverse*. However, the game's storyline reserves only 2 of the 18 quintillion universes available to you (a total of $2^{64}$ available, to be exact). Accessing the others is possible.
+
+&nbsp;&nbsp;The player will be able to build freely a bit like Minecraft and can also build on their ship; each player has a ship tied to their save file. There will be voxel materials (blocks), which can be carved to cut out (or add) any of the 8 corners. Some voxels are rigid, forming smaller cubes (like stair blocks in Minecraft), and some voxels are smooth, forming slopes. There will also be props, which are complex, mesh-based objects that can be placed in the world for decoration, function, or both. All blocks store fluids (think Minecraft's *waterlogging* but for any fluid).
+
+&nbsp;&nbsp;Players will need to make progressively more and more complicated machinery and tools to progress through the game, adapting their home base to fit their needs as they learn and progress.
+
+### **The Inspiration**
+
+&nbsp;&nbsp;For some perspective, here's some popular/well-known titles that directly inspired my design, and why they are sources of inspiration.
+
+* *[Minecraft](https://minecraft.net/)*
+    * This is kind of here out of moral obligation. Every voxel game is a Minecraft clone, no exceptions. Running gag.
+* *[Starbound](https://playstarbound.com/)*
+    * Starbound is incredible for the writers and roleplayers with its absolutely lovely art and music, and vast universe.
+    * *But...* I wouldn't even wish the agony of trying to mod this game upon my worst enemy. It's *rough.*
+* *[Empyrion: Galactic Survival](https://empyriongame.com/)*
+    * Empyrion is a lot of fun and scratches the *Robocraft* itch. You have to build your own space ship out of blocks and such.
+    * *But...* The game is kind of bland. It's missing a lot, it's buggy, and gets old quick. The developer, at least as of writing, is actively against the idea of code modding. So even modders like me can't add new stuff.
+    * *And...* It's missing that lovely feel that Starbound has which helps it to feel well rounded and cozy. It feels "cheap", for lack of a better term. So much work has gone into it but it's just not quite there yet.
+* *[No Man's Sky](https://www.nomanssky.com/)*
+    * NMS is a technical marvel and basically the best of the best of all time when it comes to procedural generation.
+    * *But...* It is very difficult to facilitate writing and roleplay in because it's not well suited for it. It's a game to *play*, not to be a part of, so the entire universe feels more like a display case than something to integrate with.
+    * *And...* It's missing that freedom of building that you can get in voxel games. It instead uses prefab-based building, and while decoration options are in the hundreds, it still always looks the same as you go between bases.
+
+### **The Design Goals**
+
+* I want good storytelling and art, to feel *involved.* I want to be a part of the world, and to be able to control the world for the sake of presentation and immersion. I want to facilitate the ability to write your own story for your character and *be someone*.
+* I want the ability to *freely interact with the world*, typically best expressed through voxels. Everything should be buildable, even your ship, and it should be buildable in as many places as possible. 
+* I want people to be able to painlessly mod my game. *I want mods to be natively supported* and easy for anyone to make.
+
+### **The Story**
+
+&nbsp;&nbsp;Well, this is awkward. So originally the story was in this section, but I have since moved it to its own page because there's a lot there: [The Story](./other-lore/story-overview.md).
+
+### **The People Involved**
+
+&nbsp;&nbsp;Same thing here. It *was* here, but now it's not. See: [Credits](./credits.md).
+
+***
+***
 
 ## The Developer and The Inspiration
 
@@ -66,52 +111,3 @@ By far the largest of these sections.
 
 * *[Rain World](https://rainworldgame.com/)* is a very important title. Despite my love (and qualms) toward the game, it is undeniable that it set a pretty significant precedent for what it means to be an immersive game. It shows just how much the little details matter. That's why it's popular! A bunch of the little details that make the ecosystem feel *real* in the constraints of what it is, have set it head and shoulders above other games in its league, and it is very highly regarded for this fact.
 * *[Robocraft](https://robocraftgame.com/)* has fun building with blocks and guns. If you have played *Crossout*, it's kind of the original predecessor to it. Another good analogue is *TerraTech*. Unfortunately I don't know how much longer this link will work; as of today (8 January 2025) FreeJam has announced it is shutting down entirely, which means Robocraft is going with it.
-
-***
-
-## What's the game like?
-
-!!! danger "Remember..."
-    Things here will change. Please refer to the top of the page for more information.
-
-&nbsp;&nbsp;Probably what you are here for. What's the gameplay like? How does it work?
-
-&nbsp;&nbsp;*The Conservatory* is a sci-fi/fantasy themed, voxel-based sandbox game, with a very small, simple, narratively-driven progression. It mixes magic *and* tech, something I have always loved together. It **should** have multiplayer if all goes well.
-
-&nbsp;&nbsp;The game's world is procedurally generated, and exists in a *multiverse*. However, the game's storyline reserves only 2 of the 18 quintillion universes available to you (a total of $2^{64}$ available, to be exact). Accessing the others is possible.
-
-&nbsp;&nbsp;The player will be able to build freely a bit like Minecraft and can also build on their ship; each player has a ship tied to their save file. There will be voxel materials (blocks), which can be carved to cut out (or add) any of the 8 corners. Some voxels are rigid, forming smaller cubes (like stair blocks in Minecraft), and some voxels are smooth, forming slopes. There will also be props, which are complex, mesh-based objects that can be placed in the world for decoration, function, or both. All blocks store fluids (think Minecraft's *waterlogging* but for any fluid).
-
-&nbsp;&nbsp;Players will need to make progressively more and more complicated machinery and tools to progress through the game, adapting their home base to fit their needs as they learn and progress.
-
-### **The Inspiration**
-
-&nbsp;&nbsp;For some perspective, here's some popular/well-known titles that directly inspired my design, and why they are sources of inspiration.
-
-* *[Minecraft](https://minecraft.net/)*
-    * This is kind of here out of moral obligation. Every voxel game is a Minecraft clone, no exceptions. Running gag.
-* *[Starbound](https://playstarbound.com/)*
-    * Starbound is incredible for the writers and roleplayers with its absolutely lovely art and music, and vast universe.
-    * *But...* I wouldn't even wish the agony of trying to mod this game upon my worst enemy. It's *rough.*
-* *[Empyrion: Galactic Survival](https://empyriongame.com/)*
-    * Empyrion is a lot of fun and scratches the *Robocraft* itch. You have to build your own space ship out of blocks and such.
-    * *But...* The game is kind of bland. It's missing a lot, it's buggy, and gets old quick. The developer, at least as of writing, is actively against the idea of code modding. So even modders like me can't add new stuff.
-    * *And...* It's missing that lovely feel that Starbound has which helps it to feel well rounded and cozy. It feels "cheap", for lack of a better term. So much work has gone into it but it's just not quite there yet.
-* *[No Man's Sky](https://www.nomanssky.com/)*
-    * NMS is a technical marvel and basically the best of the best of all time when it comes to procedural generation.
-    * *But...* It is very difficult to facilitate writing and roleplay in because it's not well suited for it. It's a game to *play*, not to be a part of, so the entire universe feels more like a display case than something to integrate with.
-    * *And...* It's missing that freedom of building that you can get in voxel games. It instead uses prefab-based building, and while decoration options are in the hundreds, it still always looks the same as you go between bases.
-
-### **The Design Goals**
-
-* I want good storytelling and art, to feel *involved.* I want to be a part of the world, and to be able to control the world for the sake of presentation and immersion. I want to facilitate the ability to write your own story for your character and *be someone*.
-* I want the ability to *freely interact with the world*, typically best expressed through voxels. Everything should be buildable, even your ship, and it should be buildable in as many places as possible. 
-* I want people to be able to painlessly mod my game. *I want mods to be natively supported* and easy for anyone to make.
-
-### **The Story**
-
-&nbsp;&nbsp;Well, this is awkward. So originally the story was in this section, but I have since moved it to its own page because there's a lot there: [The Story](./other-lore/story-overview.md).
-
-### **The People Involved**
-
-&nbsp;&nbsp;Same thing here. It *was* here, but now it's not. See: [Credits](./credits.md).
