@@ -49,7 +49,7 @@
 ***
 
 **Q: Is it gonna be on Steam?**<br/>
-**A:** It's one of my goals!
+**A:** Yes! The store page is private at this time, though.
 
 ***
 ***
@@ -86,12 +86,6 @@
 
 3. **Assimilate (bad ending).** This starts like #2, but the player takes a detour from their group during the offensive. This causes the player to come across Life Bullshittery<sup>TM</sup> that ultimately can result in them being turned into a creature of The Strain. In this case, the player acts selfishly and becomes part of a huge collective of power. The player switches sides by destroying the bomb and then ensuring The Strain covers 100% of the surface. This destroys the player's old way of life, including all friends and family who resist. Whether or not they get powerful enough to take down the primes was left open ended, but I think it would be very possible.
 
-### 2020 - 2021 ⸬ Creatures of Sonaria
-
-&nbsp;&nbsp;During this time I got a job working for Twin Atlas on *Creatures of Sonaria*, a Roblox game that's a clone of The Isle. It started out with me literally saying "this game kinda bleh can I work on it?" and then I just got the most casual job acceptance of my life. 
-
-&nbsp;&nbsp;The full story of my brief time working here is long and full of drama. If you want to know what happened, please ask and I will answer (I actually kind of already did [on my Bluesky](https://bsky.app/profile/xansworkshop.com/post/3lgm4u2n5rk2r)). Inevitably I know some people who know me from CoS will see me here and wonder what happened, so that's why this paragraph is here.
-
 ### 2022 - 2023 ⸬ *Game2D!*
 
 &nbsp;&nbsp;That's right, it's *Game3D* but with one less dimension! ... uh, wait.
@@ -121,4 +115,4 @@
 &nbsp;&nbsp;Godot feels like one of those cartoon moments where the characters are stuck and need something like a key to open a door, and there's just a very conveniently shaped rock nearby that works as a key. Literally just *"Ooh, look at this, it's perfect."* And that it is. I have very few gripes with it. Best of all, it supports C# *natively* (including bleeding edge versions of .NET!!!) and is super easy for modders to use!
 
 
-[^disp:Note]: $2^{64}$<span style="font-size:0">2 to the power of 64</span> at a minimum. This is the amount of unique seeds that can exist, but I can salt seeds (combine them with other seeds) to effectively wedge randomness into everything, making the apparent amount of unique combinations larger. Still, that amount of $2^{64}$<span style="font-size:0">2 to the power of 64</span> is the lower limit as per the mathematics.<br/><br/>If this number (somehow) seems like a letdown, think of this: If you could visit a planet in the blink of an eye (100ms, and that's a very fast blink!), did you know that it'd still take 58 **billion years (yes, with the letter B)** for you to see them all?
+[^disp:Note]: $2^{64}$<span style="font-size:0">2 to the power of 64</span> at a minimum. This is the amount of unique seeds that can exist, but I can salt seeds (combine them with other seeds) to effectively wedge randomness into everything; since seeds generate more seeds themselves recursively, the extra ones that get generated can have variation so that they follow different patterns in different places, making the apparent amount of unique combinations larger. Still, that amount of $2^{64}$<span style="font-size:0">2 to the power of 64</span> is the lower limit as per the mathematics.<br/><br/>If this number (somehow) seems like a letdown, think of this: If you could visit a planet in the blink of an eye (100ms, and that's a very fast blink!), did you know that it'd still take 58 **billion years (yes, with the letter B)** for you to see them all?
