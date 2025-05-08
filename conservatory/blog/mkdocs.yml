@@ -51,6 +51,8 @@ nav:
     - "Measurement Units" : "other-lore/units.md"
   # Format is YYYY/MM/DD
   - "Blog":
+    - "May 2025":
+      - "8 May 2025 - <small>The Road to Beta Continues</small>" : "2025/05/08.md"
     - "April 2025":
       - "22 April 2025 - <small>The New Terrain System</small>" : "2025/04/22.md"
     - "March 2025":
