@@ -24,11 +24,14 @@ plugins:
   - glightbox:
       auto_caption: true
   - search
+  - open-in-new-tab
+hooks:
+  - "docs/scripts/color_tag.py"
+  - "docs/scripts/docs_link.py"
 extra_css:
   - stylesheets/extra.css
 extra_javascript:
   - "scripts/customfootnote.js"
-  - "scripts/addback.js"
   - "scripts/ako_align.js"
   - "https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js"
 nav: 
@@ -52,6 +55,7 @@ nav:
   # Format is YYYY/MM/DD
   - "Blog":
     - "May 2025":
+      - "21 May 2025 - <small>The \"De-Noding\", Blog Changes, and Engine Upgrades</small>" : "2025/05/21.md"
       - "8 May 2025 - <small>The Road to Beta Continues</small>" : "2025/05/08.md"
     - "April 2025":
       - "22 April 2025 - <small>The New Terrain System</small>" : "2025/04/22.md"

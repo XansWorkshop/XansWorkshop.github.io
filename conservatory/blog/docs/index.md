@@ -15,7 +15,7 @@ https://discord.gg/pt7VQqagyE)! Here, I post updates (including new blog posts),
 
 ## Where do I read?
 
-&nbsp;&nbsp;The latest blog post was uploaded on [8 May 2025: *The Road to Beta Continues*](./2025/05/08.md). You can find it and other entries on the left side of the page, under the Blog category.
+&nbsp;&nbsp;The latest blog post was uploaded on [21 May 2025: *The "De-Noding", Blog Changes, and Engine Upgrades*](./2025/05/21.md). You can find it and other entries on the left side of the page, under the Blog category.
 
 ## How do I make mods? Where's the code documentation?
 
