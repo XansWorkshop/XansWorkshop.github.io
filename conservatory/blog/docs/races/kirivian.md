@@ -15,7 +15,7 @@
 ## Key Overview
 | Attribute  | Associated Information  |
 | :--------- | ----------------: |
-| Home World | Numala (*Colaras* System (G0Ia+)[^disp:&#x5B;Anomaly&#x20;1&#x5D;], Planet № 4) |
+| Home World | Numala (*Colaras* System (G0Ia+), Planet № 4) |
 | Propagation Technique | Sexual Reproduction (Male/Female), Live birth |
 | Average Height | 1.5m |
 | Average Mass | 59kg |
@@ -23,7 +23,7 @@
 
 ## Overview
 
-&nbsp;&nbsp;Kirivians are furred bipeds who exist in nomadic tribes, often compared to cats due to a number of similarities in facial structure to Gaian domesticated feline species. They are highly social and extremely welcoming to their peers, strangers and family alike. It is a level of unity unseen in other races, and stands out as an oddity compared to other races in the [ISCA](../other-lore/isca.md).
+&nbsp;&nbsp;Kirivians are furred bipeds who primarily live nomadic lives in the stars. They are often compared to cats due to a number of similarities in facial structure to Gaian feline species. They are highly social and extremely welcoming to their peers, strangers and family alike. It is a level of unity unseen in other races, and stands out as an oddity compared to other races in the [ISCA](../other-lore/isca.md).
 
 ### Phenotype
 
