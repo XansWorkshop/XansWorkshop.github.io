@@ -54,6 +54,8 @@ nav:
     - "Measurement Units" : "other-lore/units.md"
   # Format is YYYY/MM/DD
   - "Blog":
+    - "June 2025":
+      - "4 June 2025 - <small>Lore Changes, and the Kirivian Rewrite</small>" : "2025/06/04.md"
     - "May 2025":
       - "21 May 2025 - <small>The \"De-Noding\", Blog Changes, and Engine Upgrades</small>" : "2025/05/21.md"
       - "8 May 2025 - <small>The Road to Beta Continues</small>" : "2025/05/08.md"
