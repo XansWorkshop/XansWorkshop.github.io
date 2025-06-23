@@ -113,8 +113,13 @@
 
 .md-grid {
   max-width: initial;
-  margin-left:10%;
-  margin-right:10%
+  margin-left:0%;
+  margin-right:0%
+}
+@media screen and (max-width:76.234375em) {
+  .md-nav--primary .md-nav__title {
+    background-color: var(--md-default-bg-color);
+  }
 }
 
 .md-nav {
@@ -122,9 +127,9 @@
   border-radius: 12px;
 }
 
+
 body {
   background: linear-gradient(var(--page-back-start-color) 0%, var(--page-back-start-color) 64px, var(--page-back-end-color) 100%), url("VoronoiTest.jpg");
-  image-rendering: optimizeSpeed;
   border-image-repeat: stretch;
   background-repeat: repeat-x;
 	background-size: 8192px;

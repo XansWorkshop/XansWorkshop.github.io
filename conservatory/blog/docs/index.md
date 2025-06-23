@@ -15,7 +15,7 @@ https://discord.gg/pt7VQqagyE)! Here, I post updates (including new blog posts),
 
 ## Where do I read?
 
-&nbsp;&nbsp;The latest blog post was uploaded on [4 June 2025: *Lore Changes, and the Kirivian Rewrite*](./2025/06/04.md). You can find it and other entries on the left side of the page, under the Blog category.
+&nbsp;&nbsp;The latest blog post was uploaded on [22 June 2025: *Blog Fixes, Progress Report*](./2025/06/22.md). You can find it and other entries on the left side of the page, under the Blog category.
 
 ## How do I make mods? Where's the code documentation?
 
