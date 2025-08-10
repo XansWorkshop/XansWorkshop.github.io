@@ -39,7 +39,6 @@ nav:
   - "Welcome and History":
     - "What is <em>The Conservatory?</em>": "about.md"
     - "FAQ and History": "faq.md"
-    - "Credits": "credits.md"
   - "Lore":
     - "The Story":
       - "Overview": "other-lore/story-overview.md"
@@ -54,6 +53,8 @@ nav:
     - "Measurement Units" : "other-lore/units.md"
   # Format is YYYY/MM/DD
   - "Blog":
+    - "August 2025": 
+      - "10 August 2025 - <small>The First Art Pass</small>" : "2025/08/10.md"
     - "June 2025":
       - "22 June 2025 - <small>Blog Fixes, Progress Report</small>" : "2025/06/22.md"
       - "4 June 2025 - <small>Lore Changes, and the Kirivian Rewrite</small>" : "2025/06/04.md"

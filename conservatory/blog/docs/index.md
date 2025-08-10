@@ -2,8 +2,6 @@
 
 &nbsp;&nbsp;Hello! Welcome to **The Conservatory Development Blog**! Here, I post chronological updates on my progress through the game's development. I also host peeks into the lore of the game's universe. Go explore!
 
-&nbsp;&nbsp;This site is powered by `mkdocs-material` and is what I will (or do, depending on when you are reading this) use for official documentation.
-
 ## What is *The Conservatory?*
 
 &nbsp;&nbsp;You can learn about the game and my main reason for wanting to create it on the sidebar, here: [What is *The Conservatory?*](./about.md)
@@ -15,7 +13,7 @@ https://discord.gg/pt7VQqagyE)! Here, I post updates (including new blog posts),
 
 ## Where do I read?
 
-&nbsp;&nbsp;The latest blog post was uploaded on [22 June 2025: *Blog Fixes, Progress Report*](./2025/06/22.md). You can find it and other entries on the left side of the page, under the Blog category.
+&nbsp;&nbsp;The latest blog post was uploaded on [10 August 2025: *The First Art Pass*](./2025/08/10.md). You can find it and other entries on the left side of the page, under the Blog category.
 
 ## How do I make mods? Where's the code documentation?
 

@@ -9,15 +9,9 @@
 
 ## What's the game like?
 
-&nbsp;&nbsp;Probably what you are here for. What's the gameplay like? How does it work?
+&nbsp;&nbsp;*The Conservatory* is a mix of sci-fi and fantasy, a voxel-based sandbox taking place in a procedurally generated universe. You can build your own space ship, fly to other planets, and visit or build space stations. It uses a narratively-driven progression, meaning that your progression isn't a tutorial so much as it is a part of the game's story.
 
-&nbsp;&nbsp;*The Conservatory* is a sci-fi/fantasy themed, voxel-based sandbox game, with a very small, simple, narratively-driven progression. It mixes magic *and* tech, something I have always loved together. It **should** have multiplayer if all goes well.
-
-&nbsp;&nbsp;The game's world is procedurally generated, and exists in a *multiverse*. However, the game's storyline reserves only 2 of the 18 quintillion universes available to you (a total of $2^{64}$ available, to be exact). Accessing the others is possible.
-
-&nbsp;&nbsp;The player will be able to build freely a bit like Minecraft and can also build on their ship; each player has a ship tied to their save file. There will be voxel materials (blocks), which can be carved to cut out (or add) any of the 8 corners. Some voxels are rigid, forming smaller cubes (like stair blocks in Minecraft), and some voxels are smooth, forming slopes. There will also be props, which are complex, mesh-based objects that can be placed in the world for decoration, function, or both. All blocks store fluids (think Minecraft's *waterlogging* but for any fluid).
-
-&nbsp;&nbsp;Players will need to make progressively more and more complicated machinery and tools to progress through the game, adapting their home base to fit their needs as they learn and progress.
+&nbsp;&nbsp;Players will need to make progressively more complicated machinery and tools to progress through the game, adapting their home base to fit their needs as they learn and progress.
 
 ### **The Inspiration**
 
@@ -42,14 +36,8 @@
 * I want good storytelling and art, to feel *involved.* I want to be a part of the world, and to be able to control the world for the sake of presentation and immersion. I want to facilitate the ability to write your own story for your character and *be someone*.
 * I want the ability to *freely interact with the world*, typically best expressed through voxels. Everything should be buildable, even your ship, and it should be buildable in as many places as possible. 
 * I want people to be able to painlessly mod my game. *I want mods to be natively supported* and easy for anyone to make.
-
-### **The Story**
-
-&nbsp;&nbsp;Well, this is awkward. So originally the story was in this section, but I have since moved it to its own page because there's a lot there: [The Story](./other-lore/story-overview.md).
-
-### **The People Involved**
-
-&nbsp;&nbsp;Same thing here. It *was* here, but now it's not. See: [Credits](./credits.md).
+* I want multiplayer and a good role-playing environment.
+* I want mechanics that have a good feel to them, punchy combat and good vehicle controls.
 
 ***
 ***
@@ -102,8 +90,7 @@ By far the largest of these sections.
 
 &nbsp;&nbsp;I'm not much of a TV/Movie guy so this will be considerably smaller, but of those that I have watched, some of them have managed to weasel their way into my writing.
 
-* *[Star Trek](https://www.startrek.com)* (esp. *The Next Generation* and *Deep Space Nine*) is basically the only TV series that I have actively tried to watch the entirety of. I'm picky with my shows! Mr. Roddenberry's vision for the series and his usage of real scientists to make the show at least somewhat believable made a *night and day* difference between this and the series that were inspired by it.
-    * *Star Trek* made me realize the importance of coherent rules in the universe. He answered the question of *"why can't you just..."* for a pretty significant amount of cases where certain technology exists, and even if the coverage wasn't perfect, it still made a difference and it shows.
+* *[Star Trek](https://www.startrek.com)* is basically the only TV series that I have actively tried to watch the entirety of. I'm picky with my shows!
 
 #### **Other Games**
 

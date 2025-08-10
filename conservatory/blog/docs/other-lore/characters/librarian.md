@@ -7,4 +7,4 @@
 
 ***
 
-&nbsp;&nbsp;The Librarian is an AI construct that runs within all space stations designed by *The United Coalition*. As its name implies, it is responsible for information gathering and access, and provides a vast array of resources to interstellar travellers and personnel alike.
+&nbsp;&nbsp;The Librarian is an AI construct that runs within all space stations designed by the ISCA. As its name implies, it is responsible for information gathering and access, and provides a vast array of resources to interstellar travellers and personnel alike.

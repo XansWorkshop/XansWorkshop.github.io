@@ -26,12 +26,3 @@
 
 
 ### Phenotype
-
-
-<!--
-
-## Culture and Standards
-
-### Romantic and Bonding Interests
-
--->
