@@ -16,13 +16,14 @@
 | Attribute  | Associated Information  |
 | :--------- | ----------------: |
 | Home World | Avos (*Navilius* System (F3V), Planet № 2) |
-| Propagation Technique | Multi-Faceted Sexual Reproduction |
+| Propagation Technique | Asexual or Sexual Reproduction |
 | Average Height | 1.2m |
 | Average Mass | 30kg |
 | Average Lifespan | 72.2 Years |
 
 ## Overview
 
-
+&nbsp;&nbsp;Avelians are an order of posh bipedal avians, bearing a resemblance to a wide varity of ancient Earth avian species, like owls, hawks, and sparrows.<br/>
+<small>Sorry this page is a nothing burger right now.</small>
 
 ### Phenotype
