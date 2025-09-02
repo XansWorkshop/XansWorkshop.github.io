@@ -53,6 +53,8 @@ nav:
     - "Measurement Units" : "other-lore/units.md"
   # Format is YYYY/MM/DD
   - "Blog":
+    - "September 2025":
+      - "2 September 2025 - <small>Mod Code Safety, Inventories (again), Lore</small>" : "2025/09/02.md"
     - "August 2025": 
       - "10 August 2025 - <small>The First Art Pass</small>" : "2025/08/10.md"
     - "June 2025":

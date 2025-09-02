@@ -13,7 +13,7 @@ https://discord.gg/pt7VQqagyE)! Here, I post updates (including new blog posts),
 
 ## Where do I read?
 
-&nbsp;&nbsp;The latest blog post was uploaded on [10 August 2025: *The First Art Pass*](./2025/08/10.md). You can find it and other entries on the left side of the page, under the Blog category.
+&nbsp;&nbsp;The latest blog post was uploaded on [2 September 2025: *Mod Code Safety, Inventories (again), Lore*](./2025/09/02.md). You can find it and other entries on the left side of the page, under the Blog category.
 
 ## How do I make mods? Where's the code documentation?
 
