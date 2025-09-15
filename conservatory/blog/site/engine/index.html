@@ -9,25 +9,25 @@
       
       
       
-        <link rel="prev" href="../../../2025/01/01/">
+        <link rel="prev" href="../faq/">
       
       
-        <link rel="next" href="../21/">
+        <link rel="next" href="../other-lore/story-overview/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
+      <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.5.36">
     
     
       
-        <title>24 December 2024 - Entity Actions, and The Lack of a Player Entity - The Conservatory Development Blog</title>
+        <title>Custom Godot Engine - The Conservatory Development Blog</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.06209087.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.06209087.min.css">
       
         
-        <link rel="stylesheet" href="../../../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -40,16 +40,16 @@
       
     
     
-      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+      <link rel="stylesheet" href="../stylesheets/extra.css">
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -58,7 +58,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../assets/javascripts/glightbox.min.js"></script></head>
   
   
     
@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#24-december-2024-entity-actions-and-the-lack-of-a-player-entity" class="md-skip">
+        <a href="#godot-engine-conservatory-edition" class="md-skip">
           Skip to content
         </a>
       
@@ -91,7 +91,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="The Conservatory Development Blog" class="md-header__button md-logo" aria-label="The Conservatory Development Blog" data-md-component="logo">
+    <a href=".." title="The Conservatory Development Blog" class="md-header__button md-logo" aria-label="The Conservatory Development Blog" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -111,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              24 December 2024 - <small>Entity Actions, and The Lack of a Player Entity</small>
+              Custom Godot Engine
             
           </span>
         </div>
@@ -186,7 +186,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="The Conservatory Development Blog" class="md-nav__button md-logo" aria-label="The Conservatory Development Blog" data-md-component="logo">
+    <a href=".." title="The Conservatory Development Blog" class="md-nav__button md-logo" aria-label="The Conservatory Development Blog" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -204,7 +204,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href=".." class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -221,17 +221,19 @@
       
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
           <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
@@ -245,7 +247,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Welcome and History
@@ -259,7 +261,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../about/" class="md-nav__link">
+      <a href="../about/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -280,7 +282,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../faq/" class="md-nav__link">
+      <a href="../faq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -298,10 +300,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../engine/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Custom Godot Engine
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -310,6 +332,167 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#core-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Core Changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simulationdomain" class="md-nav__link">
+    <span class="md-ellipsis">
+      SimulationDomain
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conservatorydebugbridge" class="md-nav__link">
+    <span class="md-ellipsis">
+      ConservatoryDebugBridge
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physics-and-spacevector-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Physics and Space/Vector Improvements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Physics and Space/Vector Improvements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#raycast3ddirect-and-shapecast3ddirect" class="md-nav__link">
+    <span class="md-ellipsis">
+      RayCast3DDirect and ShapeCast3DDirect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RayCast3DDirect and ShapeCast3DDirect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#raycastresult-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      RayCastResult Improvements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vector-and-rect-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vector and Rect Changes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unsorted-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unsorted Changes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendering Improvements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rendering Improvements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2d-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2D Changes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3d-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D Changes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Changes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -399,7 +582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../other-lore/story-overview/" class="md-nav__link">
+      <a href="../other-lore/story-overview/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -420,7 +603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../other-lore/isca/" class="md-nav__link">
+      <a href="../other-lore/isca/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -484,7 +667,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../other-lore/characters/conservator/" class="md-nav__link">
+      <a href="../other-lore/characters/conservator/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -548,7 +731,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../races/gaian/" class="md-nav__link">
+      <a href="../races/gaian/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -569,7 +752,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../races/avelian/" class="md-nav__link">
+      <a href="../races/avelian/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -590,7 +773,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../races/kirivian/" class="md-nav__link">
+      <a href="../races/kirivian/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -611,7 +794,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../races/novan/" class="md-nav__link">
+      <a href="../races/novan/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -640,7 +823,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../other-lore/units/" class="md-nav__link">
+      <a href="../other-lore/units/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -665,19 +848,17 @@
       
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -691,7 +872,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Blog
@@ -740,7 +921,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/09/02/" class="md-nav__link">
+      <a href="../2025/09/02/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -804,7 +985,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/08/10/" class="md-nav__link">
+      <a href="../2025/08/10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -868,7 +1049,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/06/22/" class="md-nav__link">
+      <a href="../2025/06/22/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -889,7 +1070,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/06/04/" class="md-nav__link">
+      <a href="../2025/06/04/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -953,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/05/21/" class="md-nav__link">
+      <a href="../2025/05/21/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -974,7 +1155,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/05/08/" class="md-nav__link">
+      <a href="../2025/05/08/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1038,7 +1219,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/04/22/" class="md-nav__link">
+      <a href="../2025/04/22/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1102,7 +1283,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/03/25/" class="md-nav__link">
+      <a href="../2025/03/25/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1123,7 +1304,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/03/15/" class="md-nav__link">
+      <a href="../2025/03/15/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1144,7 +1325,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/03/06/" class="md-nav__link">
+      <a href="../2025/03/06/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1165,7 +1346,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/03/03/" class="md-nav__link">
+      <a href="../2025/03/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1229,7 +1410,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/01/05/" class="md-nav__link">
+      <a href="../2025/01/05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1250,7 +1431,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../2025/01/01/" class="md-nav__link">
+      <a href="../2025/01/01/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1276,19 +1457,17 @@
                 
   
   
-    
   
   
-  
     
     
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_8" >
         
           
           <label class="md-nav__link" for="__nav_4_8" id="__nav_4_8_label" tabindex="0">
@@ -1302,7 +1481,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_4_8">
             <span class="md-nav__icon md-icon"></span>
             December 2024
@@ -1313,30 +1492,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    24 December 2024 - <small>Entity Actions, and The Lack of a Player Entity</small>
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../2024/12/24/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1345,59 +1504,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-it" class="md-nav__link">
-    <span class="md-ellipsis">
-      What Is It?
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#so-how-does-it-work" class="md-nav__link">
-    <span class="md-ellipsis">
-      So, How Does it Work?
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="So, How Does it Work?">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#how-will-it-work-with-custom-stuff" class="md-nav__link">
-    <span class="md-ellipsis">
-      How will it work with custom stuff?
-    </span>
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1410,7 +1516,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../21/" class="md-nav__link">
+      <a href="../2024/12/21/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1431,7 +1537,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../10/" class="md-nav__link">
+      <a href="../2024/12/10/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1452,7 +1558,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../05/" class="md-nav__link">
+      <a href="../2024/12/05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1516,7 +1622,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../11/24/" class="md-nav__link">
+      <a href="../2024/11/24/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1537,7 +1643,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../11/18/" class="md-nav__link">
+      <a href="../2024/11/18/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1558,7 +1664,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../11/16/" class="md-nav__link">
+      <a href="../2024/11/16/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1579,7 +1685,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../11/13/" class="md-nav__link">
+      <a href="../2024/11/13/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1600,7 +1706,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../11/07/" class="md-nav__link">
+      <a href="../2024/11/07/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1621,7 +1727,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../11/05/" class="md-nav__link">
+      <a href="../2024/11/05/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1685,7 +1791,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../09/27/" class="md-nav__link">
+      <a href="../2024/09/27/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1749,7 +1855,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../08/03/" class="md-nav__link">
+      <a href="../2024/08/03/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1813,7 +1919,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../07/13/" class="md-nav__link">
+      <a href="../2024/07/13/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1877,7 +1983,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../06/27/" class="md-nav__link">
+      <a href="../2024/06/27/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1898,7 +2004,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../06/14/" class="md-nav__link">
+      <a href="../2024/06/14/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1962,7 +2068,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../05/31/" class="md-nav__link">
+      <a href="../2024/05/31/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1983,7 +2089,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../05/25/" class="md-nav__link">
+      <a href="../2024/05/25/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2004,7 +2110,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../05/20/" class="md-nav__link">
+      <a href="../2024/05/20/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2068,7 +2174,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../03/31/" class="md-nav__link">
+      <a href="../2024/03/31/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -2124,28 +2230,136 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-is-it" class="md-nav__link">
+  <a href="#core-changes" class="md-nav__link">
     <span class="md-ellipsis">
-      What Is It?
+      Core Changes
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Core Changes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#simulationdomain" class="md-nav__link">
+    <span class="md-ellipsis">
+      SimulationDomain
     </span>
   </a>
   
 </li>
-      
-        <li class="md-nav__item">
-  <a href="#so-how-does-it-work" class="md-nav__link">
+        
+          <li class="md-nav__item">
+  <a href="#conservatorydebugbridge" class="md-nav__link">
     <span class="md-ellipsis">
-      So, How Does it Work?
+      ConservatoryDebugBridge
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="So, How Does it Work?">
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#physics-and-spacevector-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Physics and Space/Vector Improvements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Physics and Space/Vector Improvements">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#how-will-it-work-with-custom-stuff" class="md-nav__link">
+  <a href="#raycast3ddirect-and-shapecast3ddirect" class="md-nav__link">
     <span class="md-ellipsis">
-      How will it work with custom stuff?
+      RayCast3DDirect and ShapeCast3DDirect
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="RayCast3DDirect and ShapeCast3DDirect">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#raycastresult-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      RayCastResult Improvements
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vector-and-rect-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Vector and Rect Changes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#unsorted-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Unsorted Changes
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#rendering-improvements" class="md-nav__link">
+    <span class="md-ellipsis">
+      Rendering Improvements
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Rendering Improvements">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#2d-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      2D Changes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3d-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      3D Changes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#other-changes" class="md-nav__link">
+    <span class="md-ellipsis">
+      Other Changes
     </span>
   </a>
   
@@ -2171,28 +2385,111 @@
                   
 
 
-<h1 id="24-december-2024-entity-actions-and-the-lack-of-a-player-entity">24 December 2024 - Entity Actions, and The Lack of a Player Entity</h1>
-<p><span style="float:left"><a href="../21/">&lt;&lt;&lt; Previous Post</a></span>
-<span style="float:right"><a href="../../../2025/01/01/">Next Post &gt;&gt;&gt;</a></span>
-<br/></p>
+<h1 id="godot-engine-conservatory-edition">Godot Engine: <em>Conservatory Edition</em></h1>
+<p>&nbsp;&nbsp;The Conservatory runs on a custom version of the <a href="https://godotengine.org">Godot game engine</a> with modifications ranging from "generally helpful" to "required for proper function". This page outlines the features that have been added or changed.</p>
+<p>&nbsp;&nbsp;To view the original contributors and creators, please visit <a href="https://godotengine.org/license">https://godotengine.org/license</a>.</p>
+<h2 id="core-changes">Core Changes</h2>
+<p>&nbsp;&nbsp;Changes relevant only to The Conservatory.</p>
+<h3 id="simulationdomain"><code>SimulationDomain</code></h3>
+<p>&nbsp;&nbsp;<code>SimulationDomain</code> is a highly complex type fundamental to the game. It is a mix between <code>SubViewport</code> and <code>Viewport</code> with several unique properties:</p>
+<ul>
+<li>Only one <code>SimulationDomain</code> can be active at a time; an instance must be made active explicitly.<ul>
+<li>Active <code>SimulationDomain</code>s override the root viewport, effectively becoming that viewport.</li>
+<li>All settings that affect the viewport (like graphics settings) are proxies to that of the root viewport; <code>SimulationDomain</code> inherits the properties but doesn't actually use them since it still piggybacks off of the root viewport.</li>
+</ul>
+</li>
+<li><code>SimulationDomain</code>s always have their own 2D and 3D physics spaces and render scenarios, meaning their own <code>World2D</code> and <code>World3D</code> as well. These simulate in the background regardless of if the domain is active.</li>
+<li><code>SimulationDomain</code> is highly protected. You cannot create new instances of it, only the engine can. Even the <em>slightest</em> misuse of it outside of its strict specification will purposely crash the game. It's basically the only class in the game where I growl at you and say <strong>don't touch.</strong> It's very sensitive!<ul>
+<li>You can still query its <code>World2D</code> and <code>World3D</code>, as well as its <code>PhysicsSpace</code> and <code>RenderScenario</code> properties to access the respective RIDs.</li>
+<li>Don't you even think about freeing these objects. Unless you like it when the game crashes on you. I'm not your mom.</li>
+</ul>
+</li>
+</ul>
+<h3 id="conservatorydebugbridge"><code>ConservatoryDebugBridge</code></h3>
+<p>&nbsp;&nbsp;This class is largely internal, but the short description is that it allows debug versions of the engine to hook into The Conservatory itself, permitting the C# debugger to also debug the engine using its associated .pdb files. This was especially useful when designing <code>SimulationDomain</code> since I could see exactly how the managed and unmanaged parts of the code worked together.</p>
+<p>&nbsp;&nbsp;In essence, <code>SimulationDomain</code> does what it says on the tin - it's an entire <em>domain</em> upon which the game is simulated, physics and rendering. As you may be able to infer, these are used for running several worlds at once, primarily on servers where players may be on different planets at once, and so all of them need to be simulated in their own little isolated box.</p>
+<h2 id="physics-and-spacevector-improvements">Physics and Space/Vector Improvements</h2>
+<p>&nbsp;&nbsp;Changes to the physics engine, its API, and types relating to space.</p>
+<h3 id="raycast3ddirect-and-shapecast3ddirect"><code>RayCast3DDirect</code> and <code>ShapeCast3DDirect</code></h3>
+<p>&nbsp;&nbsp;These two classes are, unlike their siblings <code>RayCast3D</code> and <code>ShapeCast3D</code>, <em>not</em> based on <code>Node</code>. Instead, these instances provide fast, low level physics engine access to perform raycasts on demand. This is used by several systems in the game, in particular deferred casting, which uses an instance of this type to effectively perform and store a raycast so that it can be done in an <code>async</code> method (see <code>Star3D.Maths.Physics.Raycasting::RaycastAsync()</code>).</p>
+<p>&nbsp;&nbsp;The primary benefits of these types include:</p>
+<ul>
+<li>No scene tree access is required to operate them.</li>
+<li>They avoid the slow <code>Godot.Collections.Dictionary</code> return from <code>PhysicsServer3D.intersect_ray</code> and <code>PhysicsServer3D.intersect_shape</code>.</li>
+<li>They cast only when you tell them to, and can export their results.</li>
+</ul>
+<h4 id="raycastresult-improvements"><code>RayCastResult</code> Improvements</h4>
+<ul>
+<li><code>RayCastResult</code> now provides a new enum property <code>HitObjectType</code>. This will be either <code>Invalid</code>, <code>Area</code>, <code>Body</code>, or <code>SoftBody</code>, and can be used to appropriately handle raw <code>RID</code>s since The Conservatory makes extensive use of physics objects without nodes.</li>
+<li><code>ShapeCastResult</code> is now a thing to go with <code>ShapeCast3DDirect</code>.</li>
+</ul>
+<h3 id="vector-and-rect-changes"><code>Vector</code> and <code>Rect</code> Changes</h3>
+<ul>
+<li>All <code>Vector</code> types (<code>Vector2</code>, <code>Vector3</code>, <code>Vector4</code>, and their integer counterparts) now implement <code>IComparable</code> which will sort them by magnitude extremely quickly.</li>
+<li>All <code>Vector</code> types now include two new spatial metrics:<ul>
+<li><a href="https://en.wikipedia.org/wiki/Taxicab_geometry">Manhattan Distance</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Chebyshev_distance">Chebyshev Distance</a></li>
+</ul>
+</li>
+<li>All <code>Vector</code> types now have a micro-optimized <code>IsExactlyZero</code> method which uses bitwise comparison. This is one of those things that saves a few nanoseconds so it's not really that important.</li>
+<li><code>Rect2</code> and <code>Rect2I</code> have new API:<ul>
+<li><code>FromSize</code> static methods now exist which create a new <code>Rect2(I)</code> at <code>[0, 0]</code> with the provided size.</li>
+<li>Arithmetic operators <code>+</code> and <code>-</code> are now defined with <code>Vector2(I)</code> which translates the <code>Rect2(I)</code>.</li>
+<li>The <code>&amp;</code> operator is now a proxy for <code>Intersect()</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li><code>PhysicsServer3D::body_get_shape_disabled</code> (and an <code>area</code> equivalent) were added.</li>
+<li>Added <code>PhysicsServer3D::BODY_PARAM_INVERSE_INERTIA_TENSOR</code> as a new parameter for <code>PhysicsServer3D::body_get_param</code>. Saves having to get a reference to the entire physics state.</li>
+</ul>
+<h3 id="unsorted-changes">Unsorted Changes</h3>
+<ul>
+<li><code>Engine::get_version_info</code> now returns improved data:<ul>
+<li>New <code>version</code> field which is a stringified Godot version following the display rules, i.e. <code>"4.5"</code></li>
+<li>New <code>commit</code> field, which is the last 6 digits of the commit hash.</li>
+<li>New <code>modules</code> field, an array of features, like <code>mono</code> and <code>double</code></li>
+</ul>
+</li>
+<li>Added <code>Mathf.IsOneApprox</code> and <code>Mathf.IsExactlyOne</code>.</li>
+</ul>
+<h2 id="rendering-improvements">Rendering Improvements</h2>
+<p>&nbsp;&nbsp;Changes related to rendering, both 2D and 3D</p>
+<h3 id="2d-changes">2D Changes</h3>
+<ul>
+<li><code>CharFXTransform</code> now provides several new properties.<ul>
+<li><code>Label</code> is a reference to the current <code>RichTextLabel</code> that the effect is rendering for.</li>
+<li><code>Glyph</code> (<strong>C# Only!</strong>) is a <code>Rune</code> representing the first unicode codepoint of the rendered character. This is useful primarily for English, but falls apart with other languages, so handle with care. It can be set to replace the displayed character.<ul>
+<li><code>get_glyph_index</code> exists for GDScript and returns an <code>Int</code></li>
+</ul>
+</li>
+<li><code>FontSize</code> represents the size of the font <em>as of the currently rendered character</em>, respective of text styling.</li>
+</ul>
+</li>
+<li>New <code>Control.pivot_is_relative</code> property which changes <code>Control.pivot</code> to be expressed as a continuously updating percentage of the <code>Control</code>'s size. This allows the pivot to maintain its relative location if the control is resized.</li>
+<li><code>RichTextLabel</code> now provides several new API members.<ul>
+<li>(<strong>C# Only!</strong>) <code>RichTextLabel</code> now declares <code>public virtual string BBCode { get; }</code> which can be overridden to achieve the same purpose as declaring a <code>bbcode</code> field.<ul>
+<li>To make this work, the engine now represents a property named <code>BBCode</code> as well as the legacy, all-lowercase <code>bbcode</code>.</li>
+</ul>
+</li>
+<li>(<strong>C# Only!</strong>) <code>RichTextLabel.InstallEffect&lt;T&gt;()</code> (where <code>T</code> is <code>RichTextEffect</code>) can be used to automatically instantiate an instance of the effect.</li>
+<li>(<strong>C# Only!</strong>) <code>RichTextLabel.PushCustomfx&lt;T&gt;()</code> (where <code>T</code> is <code>RichTextEffect</code>) can be used to push a custom effect onto the effect stack.</li>
+<li>New <code>parsing</code> signal (<code>Parsing</code> event in C#) has been added, which fires before and after the <code>Text</code> property parses the contained bbcode.</li>
+</ul>
+</li>
+</ul>
+<h3 id="3d-changes">3D Changes</h3>
+<ul>
+<li>The Stencil Buffer was added, though this is officially in Godot now.</li>
+<li><code>#pragma features</code> and <code>#pragma exclusive_variants</code> are now usable in Godot shaders. These allow static compliation of branches in shaders with configurable options in the inspector.</li>
+<li><code>Shader::set_include_path</code> and <code>Shader::get_include_path</code> are now exposed, allowing procedurally generated shaders without a file path to still referenece from an <code>#include</code> directory as if they are in that directory.</li>
+</ul>
+<h3 id="other-changes">Other Changes</h3>
+<ul>
+<li><code>MaterialStorage::global_shader_parameter_get</code> is no longer an error, but will still print one to the console. The Conservatory uses this to initialize shader globals in its own data storage from the values set in the engine.</li>
+</ul>
 <hr />
-<p>&nbsp;&nbsp;A lot of my recent posts have been complaints and problems. So let's change up the vibe a bit and talk about progress! I'll even say it's for holiday spirit so I get some +rep with Santa. </p>
-<p>&nbsp;&nbsp;Anyway, in this post I want to talk about the <em>Entity Action</em> system. This is a sort-of-complex system that works with the main Entity system to allow entities to actually <em>do</em> things, without actually having to know <em>how</em> to do it. The entity just says "I want to do this", and the action handles the details and the procedure.</p>
-<p>&nbsp;&nbsp;I think a lot of people will find this exciting, especially those that enjoy the ability to roleplay in games. You'll see why. But first, we have to break it down.</p>
-<h2 id="what-is-it">What Is It?</h2>
-<p>&nbsp;&nbsp;The term "entity" in a game is basically representative of <em>"a thing in the world that is doing something with code"</em>. This could be an NPC, a machine, or a vehicle. Blocks in the world are not entities, because they are just geometry. That should make sense, right?</p>
-<p>&nbsp;&nbsp;Most games have a distinct entity type for the player. This is incredibly common as it allows assigning special functionality to players that NPCs wouldn't typically have, like a link to the save file, an inventory, and other assorted goodies. It also makes it easy for NPCs to know that they are interacting with a player. You see, <strong>I actually chose to <em>not</em> do this.</strong></p>
-<p>&nbsp;&nbsp;In my game, entities have a piece of data known as an input provider. This is basically the interface layer that links some arbitrary technique of control to the entity. This control could be an AI <small>(like, the traditional game kind, not deep learning)</small>, or it could be your keyboard+mouse/gamepad. What matters is that <em>it provides instructions for what the entity should be doing.</em></p>
-<p>&nbsp;&nbsp;By extension of this, <strong>players are identified with the player <em>controller</em>.</strong> Consider this and the lack of a specific player entity type, and you (hopefully) guessed it: <strong>the player can be any (living) entity in the game!</strong> The game is designed with this in mind. <small>And modders, don't worry, there is a very convenient, well-defined <code>AbstractEntity.IsPlayer</code> property available to you.</small></p>
-<p>&nbsp;&nbsp;I think this opens the door for a lot of potential with new gameplay created by users. This was heavily inspired by <em>Risk of Rain 2</em>'s <code>RoR2::CharacterBody</code> class. You can actually play as anything in the game, not just the survivors, and I thought that was really cool. It was also inspired by <em>Rain World</em>'s Safari Mode, where you can take control of random creatures around the map and play with the ecosystem.</p>
-<p>&nbsp;&nbsp;Most importantly, I think this is an outstanding immersive tool. Games often treat the player differently, and it kind of breaks the immersion if your goal is to tell your own story where you might not want to be the flashy main character. If you spawn in as a <a href="../../../races/novan/">Novan</a>, NPCs will see you as just a plain Novan like they would any other, not as "the player".</p>
-<h2 id="so-how-does-it-work">So, How Does it Work?</h2>
-<p>&nbsp;&nbsp;A data type in the game's code called <code>EntityAction</code> declares <em>a thing an entity can do</em>. This is about as arbitrary as it sounds. It could be the action of placing a block in the world, the action of swinging a melee attack, the action of shooting a gun, the action of smelling the air to find something, the action of casting a spell. If it is an action and, discretely, is not movement (because movement and jumping has its own system), and is not an interaction with a usable object (because interactions have their own type as well, but this may very well change!) it's an Entity Action.</p>
-<p>&nbsp;&nbsp;Actions are entirely arbitrary, and must be created on game startup (you can't create new action types during runtime (read: after mod initialization), this is for network compatibility and such). The thing is, an entity has to know what actions it can actually do, and <strong>these actions might change depending on context!</strong> For example, a person's default primary action might be to swing their fist, but if they are holding a gun, it needs to override the primary action so they shoot the gun instead of swinging it at someone.</p>
-<p>&nbsp;&nbsp;To do this, there is a container type: An action <em>palette</em>. This holds a number of predefined action slots (primary, secondary, tertiary, that sort) that can be stored. These palettes are applied to a species to declare their default actions, then can be applied to items to override certain slots using a priority system. To call back to <em>Risk of Rain 2</em> again, think of the Heretic's lunar items, and how they replace your skills. Basically the same thing.</p>
-<h3 id="how-will-it-work-with-custom-stuff">How will it work with custom stuff?</h3>
-<p>&nbsp;&nbsp;The game enforces that actions can be performed with a minimal amount of commonly available data. This means that while certain actions may require some context (of any type, as it is defined by the developer (myself or modders)), at a base level actions require nothing more than the entity performing them.</p>
-<p>&nbsp;&nbsp;Currently, the technique to get information (like configuration for a common type of action, so that actions can be shared) is undetermined. I have a way in mind, but it is unsafe and uses unmanaged memory so it's obviously not the best for C#.</p>
 
 
 
@@ -2239,18 +2536,18 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.6ce7567c.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.56dfad97.min.js"></script>
+      <script src="../assets/javascripts/bundle.56dfad97.min.js"></script>
       
-        <script src="../../../scripts/customfootnote.js"></script>
+        <script src="../scripts/customfootnote.js"></script>
       
-        <script src="../../../scripts/ako_align.js"></script>
+        <script src="../scripts/ako_align.js"></script>
       
         <script src="https://unpkg.com/mathjax@3.2.2/es5/tex-mml-chtml.js"></script>
       
-        <script src="../../../js/open_in_new_tab.js"></script>
+        <script src="../js/open_in_new_tab.js"></script>
       
     
   <script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});

@@ -39,6 +39,7 @@ nav:
   - "Welcome and History":
     - "What is <em>The Conservatory?</em>": "about.md"
     - "FAQ and History": "faq.md"
+    - "Custom Godot Engine" : "engine.md"
   - "Lore":
     - "The Story":
       - "Overview": "other-lore/story-overview.md"
