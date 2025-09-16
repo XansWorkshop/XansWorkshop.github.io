@@ -416,9 +416,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#vector-and-rect-changes" class="md-nav__link">
+  <a href="#vector-rect-and-transform-changes" class="md-nav__link">
     <span class="md-ellipsis">
-      Vector and Rect Changes
+      Vector, Rect, and Transform Changes
     </span>
   </a>
   
@@ -2297,9 +2297,9 @@
 </li>
         
           <li class="md-nav__item">
-  <a href="#vector-and-rect-changes" class="md-nav__link">
+  <a href="#vector-rect-and-transform-changes" class="md-nav__link">
     <span class="md-ellipsis">
-      Vector and Rect Changes
+      Vector, Rect, and Transform Changes
     </span>
   </a>
   
@@ -2405,9 +2405,9 @@
 </ul>
 </li>
 </ul>
+<p>&nbsp;&nbsp;In essence, <code>SimulationDomain</code> does what it says on the tin - it's an entire <em>domain</em> upon which the game is simulated, both physics and rendering. As you may be able to infer, these are used for running several worlds at once, primarily on servers where players may be on different planets at once, and so all of them need to be simulated in their own little isolated box.</p>
 <h3 id="conservatorydebugbridge"><code>ConservatoryDebugBridge</code></h3>
 <p>&nbsp;&nbsp;This class is largely internal, but the short description is that it allows debug versions of the engine to hook into The Conservatory itself, permitting the C# debugger to also debug the engine using its associated .pdb files. This was especially useful when designing <code>SimulationDomain</code> since I could see exactly how the managed and unmanaged parts of the code worked together.</p>
-<p>&nbsp;&nbsp;In essence, <code>SimulationDomain</code> does what it says on the tin - it's an entire <em>domain</em> upon which the game is simulated, physics and rendering. As you may be able to infer, these are used for running several worlds at once, primarily on servers where players may be on different planets at once, and so all of them need to be simulated in their own little isolated box.</p>
 <h2 id="physics-and-spacevector-improvements">Physics and Space/Vector Improvements</h2>
 <p>&nbsp;&nbsp;Changes to the physics engine, its API, and types relating to space.</p>
 <h3 id="raycast3ddirect-and-shapecast3ddirect"><code>RayCast3DDirect</code> and <code>ShapeCast3DDirect</code></h3>
@@ -2420,10 +2420,10 @@
 </ul>
 <h4 id="raycastresult-improvements"><code>RayCastResult</code> Improvements</h4>
 <ul>
-<li><code>RayCastResult</code> now provides a new enum property <code>HitObjectType</code>. This will be either <code>Invalid</code>, <code>Area</code>, <code>Body</code>, or <code>SoftBody</code>, and can be used to appropriately handle raw <code>RID</code>s since The Conservatory makes extensive use of physics objects without nodes.</li>
-<li><code>ShapeCastResult</code> is now a thing to go with <code>ShapeCast3DDirect</code>.</li>
+<li><code>RayCastResult</code> was added to contain results from <code>RayCast3DDirect</code>. It, and <code>RayCast3D</code>, now include a new enum property <code>HitObjectType</code>. This will be either <code>Invalid</code>, <code>Area</code>, <code>Body</code>, or <code>SoftBody</code>, and can be used to appropriately handle raw collider <code>RID</code>s since The Conservatory makes extensive use of physics objects without nodes.</li>
+<li><code>ShapeCastResult</code> is now a thing to go with <code>ShapeCast3DDirect</code> too.</li>
 </ul>
-<h3 id="vector-and-rect-changes"><code>Vector</code> and <code>Rect</code> Changes</h3>
+<h3 id="vector-rect-and-transform-changes"><code>Vector</code>, <code>Rect</code>, and <code>Transform</code> Changes</h3>
 <ul>
 <li>All <code>Vector</code> types (<code>Vector2</code>, <code>Vector3</code>, <code>Vector4</code>, and their integer counterparts) now implement <code>IComparable</code> which will sort them by magnitude extremely quickly.</li>
 <li>All <code>Vector</code> types now include two new spatial metrics:<ul>
@@ -2438,6 +2438,7 @@
 <li>The <code>&amp;</code> operator is now a proxy for <code>Intersect()</code></li>
 </ul>
 </li>
+<li><code>Transform3D * Basis</code> is now a defined operation, identical to <code>transformLeft * new Transform3D(Vector3.Zero, basisRight)</code>.</li>
 </ul>
 <h3 id="other">Other</h3>
 <ul>

@@ -20,11 +20,11 @@
     * You can still query its `World2D` and `World3D`, as well as its `PhysicsSpace` and `RenderScenario` properties to access the respective RIDs.
     * Don't you even think about freeing these objects. Unless you like it when the game crashes on you. I'm not your mom.
 
+&nbsp;&nbsp;In essence, `SimulationDomain` does what it says on the tin - it's an entire *domain* upon which the game is simulated, both physics and rendering. As you may be able to infer, these are used for running several worlds at once, primarily on servers where players may be on different planets at once, and so all of them need to be simulated in their own little isolated box.
+
 ### `ConservatoryDebugBridge`
 
 &nbsp;&nbsp;This class is largely internal, but the short description is that it allows debug versions of the engine to hook into The Conservatory itself, permitting the C# debugger to also debug the engine using its associated .pdb files. This was especially useful when designing `SimulationDomain` since I could see exactly how the managed and unmanaged parts of the code worked together.
-
-&nbsp;&nbsp;In essence, `SimulationDomain` does what it says on the tin - it's an entire *domain* upon which the game is simulated, physics and rendering. As you may be able to infer, these are used for running several worlds at once, primarily on servers where players may be on different planets at once, and so all of them need to be simulated in their own little isolated box.
 
 ## Physics and Space/Vector Improvements
 
@@ -42,10 +42,10 @@
 
 #### `RayCastResult` Improvements
 
-* `RayCastResult` now provides a new enum property `HitObjectType`. This will be either `Invalid`, `Area`, `Body`, or `SoftBody`, and can be used to appropriately handle raw `RID`s since The Conservatory makes extensive use of physics objects without nodes.
-* `ShapeCastResult` is now a thing to go with `ShapeCast3DDirect`.
+* `RayCastResult` was added to contain results from `RayCast3DDirect`. It, and `RayCast3D`, now include a new enum property `HitObjectType`. This will be either `Invalid`, `Area`, `Body`, or `SoftBody`, and can be used to appropriately handle raw collider `RID`s since The Conservatory makes extensive use of physics objects without nodes.
+* `ShapeCastResult` is now a thing to go with `ShapeCast3DDirect` too.
 
-### `Vector` and `Rect` Changes
+### `Vector`, `Rect`, and `Transform` Changes
 * All `Vector` types (`Vector2`, `Vector3`, `Vector4`, and their integer counterparts) now implement `IComparable` which will sort them by magnitude extremely quickly.
 * All `Vector` types now include two new spatial metrics:
     * [Manhattan Distance](https://en.wikipedia.org/wiki/Taxicab_geometry)
@@ -55,6 +55,7 @@
     * `FromSize` static methods now exist which create a new `Rect2(I)` at `[0, 0]` with the provided size.
     * Arithmetic operators `+` and `-` are now defined with `Vector2(I)` which translates the `Rect2(I)`.
     * The `&` operator is now a proxy for `Intersect()`
+* `Transform3D * Basis` is now a defined operation, identical to `transformLeft * new Transform3D(Vector3.Zero, basisRight)`.
 
 ### Other
 
